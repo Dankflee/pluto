@@ -1,0 +1,107 @@
+{
+  "intents": [
+      {
+          "tag": "greeting",
+          "patterns": [
+              "Hello",
+              "Hi there",
+              "Good day"
+          ],
+          "responses": [
+              "Hello! How can I assist you today?",
+              "Hi there! How can I help you?",
+              "Good day! What do you need assistance with?"
+          ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+            "See you later, thanks for visiting",
+            "Have a nice day",
+            "Bye! Come back again soon."
+        ]
+      },
+      {
+          "tag": "emergency_contact",
+          "patterns": [
+              "Emergency contact information",
+              "Who do I contact in an emergency?",
+              "Emergency hotline",
+              "emergency no",
+              "number emergency"
+          ],
+          "responses": [
+              "contact this emergency no in case :- 900xxxxxxx ",
+              "In case of emergency, please contact your local emergency services. If you need immediate assistance, dial 100 .",
+              "For emergency assistance, call your local emergency services. Keep emergency numbers handy for quick access during disasters."
+          ]
+      },
+      {
+          "tag": "evacuation_routes",
+          "patterns": [
+              "Evacuation routes",
+              "Safe evacuation routes",
+              "How to evacuate safely",
+              "safe areas ",
+              "safe house ",
+              ""
+          ],
+          "responses": [
+              "Know the evacuation routes in your area. Follow instructions from authorities during evacuation orders.",
+              "Plan evacuation routes beforehand. Stay tuned to local authorities for evacuation instructions during emergencies."
+          ]
+      },
+      {
+          "tag": "shelter_information",
+          "patterns": [
+              "Emergency shelters",
+              "Where can I find shelter?",
+              "Shelter locations"
+          ],
+          "responses": [
+              "Emergency shelters may be available in community centers, schools, or designated locations during disasters. Stay tuned to local news for shelter information.",
+              "During emergencies, shelters may be set up in safe locations. Listen to local authorities for shelter locations and instructions."
+          ]
+      },
+      {
+          "tag": "preparedness_kit",
+          "patterns": [
+              "Disaster preparedness kit",
+              "What should I include in my emergency kit?",
+              "Emergency supplies checklist"
+          ],
+          "responses": [
+              "Prepare a disaster kit with essentials like water, non-perishable food, flashlight, batteries, first aid kit, and important documents.",
+              "Create an emergency supply kit with items like water, canned food, medications, flashlight, and important documents. Be prepared for unexpected emergencies."
+          ]
+      },
+      {
+          "tag": "report_damage",
+          "patterns": [
+              "Report damage",
+              "How do I report damage?",
+              "Report disaster-related damage",
+              "damage report",
+              "damage in my area",
+              "disaster in my area "
+          ],
+          "responses": [
+              "Report disaster-related damage to local authorities or emergency management agencies. Provide detailed information about the damage for effective response and assistance.",
+              "If you've experienced damage due to a disaster, report it to your local emergency management agency or authorities. Be sure to provide accurate and detailed information."
+          ]
+      },
+      {
+          "tag": "volunteer_opportunities",
+          "patterns": [
+              "Volunteer opportunities",
+              "How can I help?",
+              "Volunteering during disasters"
+          ],
+          "responses": [
+              "Volunteer opportunities may be available through local organizations or disaster relief agencies. Contact them for more information on how you can help.",
+              "During disasters, volunteering can make a significant impact. Reach out to local organizations or disaster relief agencies to find volunteer opportunities."
+          ]
+      }
+  ]
+}
